@@ -1,0 +1,16 @@
+﻿[project]
+name = "quick-notes-cli-sleepy2tired"
+version = "0.1.0"
+description = "Lightning-fast notes from the terminal with timestamps and simple stats."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Sleepy2Tired"}]
+dependencies = []
+
+[project.scripts]
+quick-notes = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
